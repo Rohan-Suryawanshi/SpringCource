@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+         http://www.springframework.org/schema/beans 
+         http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student-1" class="com.factorydesignpattern.beans.StudentBean">
+        <property name="name" value="Rohan"/>
+        <property name="city" value="Pune" />
+    </bean>
+    
+    <bean id="employee-1" class="com.factorydesignpattern.beans.EmployeeBean">
+        <property name="name" value="Harish"/>
+        <property name="designation" value="AI engineer" />
+    </bean>
+</beans>
